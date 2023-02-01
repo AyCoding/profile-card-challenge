@@ -1,0 +1,114 @@
+@import url('https://unpkg.com/reset-css@5.0.1/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    /*color: hsl(228, 45%, 44%);*/
+    color: #333;
+}
+
+:root {
+    /*Primary*/
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /*Neutral*/
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    background: #21A4AE;
+}
+
+.card {
+    width: 350px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin: 25px auto auto;
+    background: #FFF;
+}
+
+.card .img-profile {
+    position: relative;
+}
+
+.card .img-profile .picture {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    text-align: center;
+    border-radius: 100%;
+    border: 5px solid #FFF;
+}
+
+.card .profile {
+    margin-top: 75px;
+}
+
+.card .profile .name {
+    font-weight: 700;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+.age, .live {
+    color: var(--Dark-grayish-blue);
+}
+
+.name, .age {
+    margin-bottom: 15px;
+}
+
+.live {
+    margin-bottom: 25px;
+}
+
+.card .profile .top {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card .profile .live {
+    display: flex;
+    justify-content: center;
+}
+
+.card .stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-top: 1px solid var(--Dark-gray);
+    padding: 25px;
+}
+
+.card .stats span {
+    font-weight: 700;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+.card .stats p {
+    color: var(--Dark-grayish-blue);
+}
+
+
+footer {
+    margin: 10px;
+    color: white;
+}
