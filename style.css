@@ -105,8 +105,10 @@ body {
 
 .card .stats p {
     color: var(--Dark-grayish-blue);
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
-
 
 footer {
     margin: 10px;
